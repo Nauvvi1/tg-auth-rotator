@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Введите ФИО</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Шаг 2: Введите ФИО</h1>
+
+    <form action="/submit-fullname" method="POST">
+      <input type="hidden" name="phoneNumber" value="<%= phoneNumber %>" />
+      <label for="fullname">Фамилия Имя Отчество:</label>
+      <input type="text" name="fullname" id="fullname" required>
+      <button type="submit">Продолжить</button>
+    </form>
+
+    <form action="/" method="GET" style="margin-top: 10px;">
+      <button type="submit">⬅ Назад</button>
+    </form>
+
+    <div class="message">
+      <p><%= message %></p>
+    </div>
+  </div>
+</body>
+</html>

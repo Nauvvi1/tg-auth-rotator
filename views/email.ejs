@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Введите Email</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Шаг 3: Введите email</h1>
+
+    <form action="/submit-email" method="POST">
+      <input type="hidden" name="phoneNumber" value="<%= phoneNumber %>" />
+      <input type="hidden" name="fullname" value="<%= fullname %>" />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+      <button type="submit">Продолжить</button>
+    </form>
+
+    <form action="/back-to-fullname" method="POST" style="margin-top: 10px;">
+      <input type="hidden" name="phoneNumber" value="<%= phoneNumber %>">
+      <input type="hidden" name="fullname" value="<%= fullname %>">
+      <button type="submit">⬅ Назад</button>
+    </form>
+
+    <div class="message">
+      <p><%= message %></p>
+    </div>
+  </div>
+</body>
+</html>

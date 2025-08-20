@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация в Telegram</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Регистрация в Telegram через Бота</h1>
+
+    <% if (!phoneNumber) { %>
+      <form action="/start-registration" method="POST">
+        <label for="phoneNumber">Введите номер телефона:</label>
+        <input type="text" name="phoneNumber" placeholder="+7..." required>
+        <button type="submit">Запустить регистрацию</button>
+      </form>
+    <% } else { %>
+      <form action="/submit-sms-code" method="POST">
+        <input type="hidden" name="phoneNumber" value="<%= phoneNumber %>" />
+        <label for="smsCode">Введите код из SMS:</label>
+        <input type="text" name="smsCode" id="smsCode" required>
+        <% if (typeof needPassword !== 'undefined' && needPassword) { %>
+          <label for="password">Введите 2FA-пароль:</label>
+          <input type="password" name="password" id="password" required>
+        <% } %>
+        <button type="submit">Подтвердить код</button>
+      </form>
+      <form action="/" method="GET" style="margin-top: 10px;">
+        <button type="submit">⬅ Назад</button>
+      </form>
+    <% } %>
+
+    <div class="message">
+      <p><%= message %></p>
+    </div>
+  </div>
+</body>
+</html>

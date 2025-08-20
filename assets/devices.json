@@ -1,0 +1,53 @@
+[
+    {
+      "manufacturer": "Samsung",
+      "models": ["Galaxy S21", "Galaxy A52", "Galaxy Note 10", "Galaxy A72", "Galaxy S10e", "Galaxy M31", "Galaxy S20 FE"],
+      "versions": ["10", "11", "12", "13"]
+    },
+    {
+      "manufacturer": "Xiaomi",
+      "models": ["Redmi Note 10", "Mi 11", "Poco X3", "Mi 10T", "Redmi Note 9 Pro", "Mi Mix 3", "Poco F2 Pro"],
+      "versions": ["10", "11", "12", "13"]
+    },
+    {
+      "manufacturer": "OnePlus",
+      "models": ["OnePlus 8", "OnePlus Nord", "OnePlus 9", "OnePlus 7 Pro", "OnePlus 10 Pro", "OnePlus 6T"],
+      "versions": ["10", "11", "12", "13"]
+    },
+    {
+      "manufacturer": "Google",
+      "models": ["Pixel 4a", "Pixel 5", "Pixel 6", "Pixel 6a", "Pixel 7", "Pixel 7a"],
+      "versions": ["11", "12", "13", "14"]
+    },
+    {
+      "manufacturer": "Huawei",
+      "models": ["P30", "P40", "Mate 20", "Mate 30", "Nova 5T", "Honor 20"],
+      "versions": ["9", "10", "11", "12"]
+    },
+    {
+      "manufacturer": "Realme",
+      "models": ["Realme 6", "Realme 7 Pro", "Realme X2", "Realme GT", "Realme Narzo 30"],
+      "versions": ["10", "11", "12"]
+    },
+    {
+      "manufacturer": "Motorola",
+      "models": ["Moto G Stylus", "Moto G Power", "Moto G9 Plus", "Moto Edge", "Moto One Fusion+"],
+      "versions": ["10", "11", "12"]
+    },
+    {
+      "manufacturer": "Sony",
+      "models": ["Xperia 10 II", "Xperia 5 II", "Xperia 1 III", "Xperia XZ3", "Xperia L4"],
+      "versions": ["10", "11", "12"]
+    },
+    {
+      "manufacturer": "Oppo",
+      "models": ["Reno 5", "Reno 6", "A74", "Find X2", "A94", "F17 Pro"],
+      "versions": ["10", "11", "12"]
+    },
+    {
+      "manufacturer": "Vivo",
+      "models": ["V21", "Y72", "X60 Pro", "V17", "Y20s", "X70 Pro"],
+      "versions": ["10", "11", "12"]
+    }
+  ]
+  

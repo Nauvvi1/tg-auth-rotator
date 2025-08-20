@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "grammy": "^1.35.1",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.10.0",
+    "telegram": "^2.26.22",
+    "tunnel": "^0.0.6"
+  }
+}

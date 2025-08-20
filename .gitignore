@@ -1,0 +1,7 @@
+sessions/*.session.json
+sessions/registeredProfiles.json
+
+*.log
+.env
+
+node_modules/
